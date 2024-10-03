@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class IntegerCollection {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        TreeSet<Integer> numberSet = new TreeSet<>();
+
+        System.out.print("Enter the number of integers (n): ");
+        int n = scanner.nextInt();
+
+        System.out.println("Enter " + n + " integers:");
+
+        for (int i = 0; i < n; i++) {
+            int num = scanner.nextInt();
+            numberSet.add(num);
+        }
+
+
+        System.out.println("Integers in sorted order:");
+        for (int num : numberSet) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+
+        System.out.print("Enter the element to search: ");
+        int searchNum = scanner.nextInt();
+
+        if (numberSet.contains(searchNum)) {
+            System.out.println("Element " + searchNum + " found in the collection.");
+        } else {
+            System.out.println("Element " + searchNum + " not found in the collection.");
+        }
+
+        scanner.close();
+    }
+}
