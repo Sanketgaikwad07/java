@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class AddSubtract {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input two values
+        System.out.print("Enter the first value: ");
+        double firstValue = scanner.nextDouble();
+
+        System.out.print("Enter the second value: ");
+        double secondValue = scanner.nextDouble();
+
+        // Ask for the operation
+        System.out.print("Would you like to add or subtract? (Type 'add' or 'subtract'): ");
+        String operation = scanner.next();
+
+        // Perform the operation and display the result
+        if (operation.equalsIgnoreCase("add")) {
+            double result = firstValue + secondValue;
+            System.out.println("The result of addition is: " + result);
+        } else if (operation.equalsIgnoreCase("subtract")) {
+            double result = firstValue - secondValue;
+            System.out.println("The result of subtraction is: " + result);
+        } else {
+            System.out.println("Invalid operation. Please type 'add' or 'subtract'.");
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}
