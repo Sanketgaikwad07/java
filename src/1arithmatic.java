@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class arithmatic {
+ class arithmatic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("please enter your first number: ");
