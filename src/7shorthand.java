@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class shorthand {
+ class shorthand {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=5;
