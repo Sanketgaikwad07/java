@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class simpleinterest2 {
+ class simpleinterest2 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("calculator the simple interest");
