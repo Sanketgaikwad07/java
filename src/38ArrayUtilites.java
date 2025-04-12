@@ -8,7 +8,7 @@ class ArrayUtilites {
 
         System.out.print("Enter the your number rows:  ");
         int num = sc.nextInt();
-        System.out.println("please enter the colu");
+        System.out.println("please enter the colume");
         int[] size = new int[num];
         int i = 0;
         while (i < num) {
