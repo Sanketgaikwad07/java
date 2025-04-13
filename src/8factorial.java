@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class factorial {
+class factor {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("welcome the factoril\n");
+        System.out.println("welcome the factorial\n");
 
         System.out.print("enter the number:  ");
 
