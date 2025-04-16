@@ -3,9 +3,9 @@ import java.util.Scanner;
  class arithmatic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("please enter your first number: ");
+        System.out.print("Please enter your first number: ");
         int first = sc.nextInt();
-        System.out.print("please enyer your second number: ");
+        System.out.print("Please enter your second number: ");
         int second = sc.nextInt();
 
         int add = first + second;
