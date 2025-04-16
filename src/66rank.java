@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class rank {
+class rank {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
