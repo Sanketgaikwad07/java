@@ -7,7 +7,7 @@ for(int j=1;j<=i;j++){
 System.out.print(number+" ");
 number++;
 }
-Stsyem.out.println();
+System.out.println();
 }
 }
 }
