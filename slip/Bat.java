@@ -41,6 +41,6 @@ public class Bat {
         myBat.fly();
         myBat.makeSound();
         myBat.land();
-        myBat.sleep();
+  
     }
 }
