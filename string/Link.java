@@ -30,6 +30,7 @@ class LinkedListStack {
             top = top.next;
             return value;
         }
+
     }
 
     public int peek() {
