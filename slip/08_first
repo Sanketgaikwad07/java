@@ -32,7 +32,7 @@ public class Metadata {
 				System.out.println(rs.getString("TABLE_NAME"));
 			}
 			rs.close();
-			conn.close();
+		
 		} 
 		catch (Exception e) {
 			System.out.println(e);
