@@ -1,4 +1,4 @@
-// Derived class (Child class)
+
 class Dog extends Animal {
     // Additional method for Dog class
     public void bark() {
