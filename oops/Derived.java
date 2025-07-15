@@ -1,6 +1,7 @@
 
 class Dog extends Animal {
-    // Additional method for Dog class
+    // Additional mog c
+    
     public void bark() {
         System.out.println("The dog barks.");
     }
