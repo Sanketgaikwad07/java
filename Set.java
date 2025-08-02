@@ -15,6 +15,7 @@ public class DatabaseRetrieve {
         ResultSet rs = null;
 
         try {
+            
             // Step 1: Establish a connection
             conn = DriverManager.getConnection(url, user, password);
 
