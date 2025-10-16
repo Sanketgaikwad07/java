@@ -1,0 +1,9 @@
+package Question;
+
+public class Squareroot {
+    public static void main(String[] args) {
+        int i=8;
+
+        System.out.println(Math.sqrt(i));
+    }
+}
