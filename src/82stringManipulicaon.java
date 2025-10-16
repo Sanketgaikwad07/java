@@ -1,4 +1,4 @@
-public class stringManipulicaon {
+class stringManipulicaon {
     public static void main(String[] args) {
         String firstname = "Sanket";
         String lastName = "Gaikwad";

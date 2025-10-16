@@ -8,8 +8,9 @@ class palidrome {
 
         int first = sc.nextInt();
 
-        boolean ispalidrome = ispalidrome(first);
-        if (ispalidrome) {
+        boolean ispalindrome = ispalidrome(first);
+
+        if (ispalindrome) {
             System.out.println("your number is palidrome");
         } else {
             System.out.println("your number is not palidrome");

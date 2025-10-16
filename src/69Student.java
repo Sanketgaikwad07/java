@@ -16,6 +16,10 @@ class Student {
         this.roll = roll;
     }
 
+    public Student() {
+
+    }
+
     public static void main(String[] args) {
         Student Sanket = new Student(19, 5, "90", "SANKET", "2404");
         System.out.println(Sanket);
@@ -32,6 +36,21 @@ class Student {
         sb.append(", subject=").append(subject);
         sb.append('}');
         return sb.toString();
+    }
+
+    public void setName(String sanketGaikwad) {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void printAllAttributes() {
+
+    }
+
+    public void setStudentId(String stu123) {
+
     }
 
     ;
