@@ -16,8 +16,8 @@ class Car {
     }
 
     public static void main(String[] args) {
-        Car Thar = new Car(4, 4, 180, "Audi", "Q7", "Ford");
-        System.out.println(Thar);
+        //csk Thar = new csk(4, 4, 180, "Audi", "Q7", "Ford");
+        //System.out.println(Thar);
     }
 
     @Override
