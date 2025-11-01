@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.FileWriter;
 
 public class error {
+    
     public static void main(String[] args) {
         try {
             File myfil = new File("homey.js");
