@@ -3,6 +3,7 @@ class Dog extends Animal {
     // Additional mog c
     
     public void bark() {
+        
         System.out.println("The dog barks.");
     }
 }
