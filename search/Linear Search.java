@@ -7,7 +7,6 @@ public class LinearSearch {
         }
         return -1;  // Not found
     }
-
     public static void main(String[] args) {
         int[] nums = {10, 20, 30, 40, 50};
         int target = 30;
