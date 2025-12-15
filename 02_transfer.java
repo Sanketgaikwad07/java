@@ -12,6 +12,7 @@ public class StudentRecordDisplay extends JFrame {
         setSize(400, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        
         JPanel panel = new JPanel(new GridLayout(4, 2));
 
         panel.add(new JLabel("Roll No:"));
