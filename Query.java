@@ -13,6 +13,7 @@ public class DatabaseInsert {
         PreparedStatement stmt = null;
 
         try {
+            
             // Step 1: Establish a connection
             conn = DriverManager.getConnection(url, user, password);
 
