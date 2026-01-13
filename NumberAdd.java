@@ -6,5 +6,6 @@ public class NumberAdd {
         int b = 6;
         System.out.println(++a + ++b);
 
+        
     }
 }
