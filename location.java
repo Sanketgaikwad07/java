@@ -6,6 +6,7 @@ public class MemoryLocationExample {
         int hashCode = System.identityHashCode(myObject);
         
         // Print the hash code
+        
         System.out.println("Identity Hash Code (as a unique identifier): " + hashCode);
         
         // Example of using the object in an array
