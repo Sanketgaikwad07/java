@@ -14,6 +14,7 @@ public class StudentRecordDisplay extends JFrame {
 
         
         JPanel panel = new JPanel(new GridLayout(4, 2));
+        
 
         panel.add(new JLabel("Roll No:"));
         txtRNo = new JTextField();
