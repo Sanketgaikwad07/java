@@ -12,6 +12,7 @@ public class NumberProcessor {
 
         generatorThread.start();
         squareThread.start();
+        
         cubeThread.start();
     }
 
