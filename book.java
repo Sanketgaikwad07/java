@@ -3,6 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
+
 class Book {
     static int totalNoBooks = 0;
     String author;
