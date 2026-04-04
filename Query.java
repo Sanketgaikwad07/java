@@ -4,6 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class DatabaseInsert {
+    
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/your_database"; // Database URL
         String user = "your_username"; // Database username
