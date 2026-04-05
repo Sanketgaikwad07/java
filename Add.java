@@ -6,6 +6,7 @@ public class MatrixAddition {
 
         // Input dimensions
         System.out.print("Enter number of rows: ");
+        
         int rows = scanner.nextInt();
 
         System.out.print("Enter number of columns: ");
