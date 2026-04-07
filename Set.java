@@ -11,6 +11,7 @@ public class DatabaseRetrieve {
         String password = "your_password";
 
         Connection conn = null;
+        
         Statement stmt = null;
         ResultSet rs = null;
         
