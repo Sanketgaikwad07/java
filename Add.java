@@ -21,6 +21,7 @@ public class MatrixAddition {
         for (int i = 0; i < rows; i++)
             for (int j = 0; j < cols; j++)
                 matrix1[i][j] = scanner.nextInt();
+        
 
         // Input for matrix2
         System.out.println("Enter elements of second matrix:");
