@@ -4,3 +4,4 @@ CREATE TABLE employees (
     position VARCHAR(100),
     salary DECIMAL(10, 2)
 );
+
