@@ -5,9 +5,6 @@ import java.sql.*;
 
 
 public class StudentRecordDisplay extends JFrame {
-    
-    
-    
     private JTextField txtRNo, txtSName, txtPer;
     private JButton btnDisplay;
 
