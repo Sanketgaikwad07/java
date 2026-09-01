@@ -12,6 +12,7 @@ public class MatrixAddition {
         int rows = scanner.nextInt();
 
         System.out.print("Enter number of columns: ");
+        
         int cols = scanner.nextInt();
 
         int[][] matrix1 = new int[rows][cols];
