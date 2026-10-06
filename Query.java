@@ -15,6 +15,7 @@ public class DatabaseInsert {
         
 
         try {
+
             
             // Step 1: Establish a connection
             conn = DriverManager.getConnection(url, user, password);
