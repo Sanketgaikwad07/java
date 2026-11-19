@@ -12,6 +12,7 @@ public class StudentRecordDisplay extends JFrame {
         setTitle("Display Student Record");
         setSize(400, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
 
         
         JPanel panel = new JPanel(new GridLayout(4, 2));
